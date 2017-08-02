@@ -4,12 +4,24 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Jason'
 SITENAME = 'Jason Figueroa'
+
+# development URLs
+
 # SITEURL = 'http://localhost:8000'
 # ABOUTURL = 'http://localhost:8000/pages/about-me.html'
 # ABOUTSITEURL = 'http://localhost:8000/pages/about-site.html'
+# FAVICON = 'http://localhost:8000/images/favicon.ico'
+
+# end development URLs
+
+# production URLs
+
 SITEURL = 'https://jasonfigueroa.github.io'
 ABOUTURL = 'https://jasonfigueroa.github.io/pages/about-me.html'
 ABOUTSITEURL = 'https://jasonfigueroa.github.io/pages/about-site.html'
+FAVICON = 'https://jasonfigueroa.github.io/images/favicon.ico'
+
+# end production URLs
 
 THEME = 'pelican-blue'
 
@@ -28,9 +40,6 @@ AUTHOR_FEED_RSS = None
 
 # added for pelican-blue theme
 SIDEBAR_DIGEST = 'Passionate Learner'
-
-# FAVICON = 'http://localhost:8000/images/favicon.ico'
-FAVICON = 'https://jasonfigueroa.github.io/images/favicon.ico'
 
 DISPLAY_PAGES_ON_MENU = True
 
